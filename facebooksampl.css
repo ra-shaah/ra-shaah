@@ -1,0 +1,23 @@
+a:link{
+    text-decoration: none;
+    color: blue;
+    font-size: 10px;
+}
+.textb{
+    width: 150px;
+    padding: 5px 2px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.txtbx{
+    width: 150px;
+    padding: 3px 2px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid black;
+
+    box-sizing: border-box;
+}

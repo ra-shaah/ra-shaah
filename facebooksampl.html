@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="facebooksampl.css" rel="stylesheet">
+    <title>facebook</title>
+    <style>
+
+    div.absolute{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+        background-color: #3b5998;
+    border: 3px #3b5998;
+    }
+    div.relative{
+        position: relative;
+        top: 80px;
+        left: 0;
+        width: 780px;
+        height: 500px;
+        background-color: #eeeff4;
+        float: left;
+    }
+        div.relative1{
+            position: relative;
+            top: 80px;
+            width: 550px;
+            height: 500px;
+            background-color: #eeeff4;
+            float: left;
+        }
+
+
+    </style>
+</head>
+<body>
+<div >
+    <div class="absolute">
+        <h1 style="color: white;font-size: 30px;float: left;margin-left: 200px">Facebook</h1>
+
+        <label style="margin-left: 490px;margin-top: 10px;display: inline-block;font-size: 15px;color: white">Email or Phone</label>
+        <label style="margin-left: 80px;margin-top: 10px;display: inline-block;font-size: 15px;color: white">Password</label>
+        <input type="text" name="EmOrPh"  class="txtbx" style="margin-left: 490px;margin-top: 5px">
+        <input type="text" name="LoginPassword" class="txtbx" style="margin-left: 20px;margin-top: 5px">
+        <input type="submit" value="Log In" style="background-color: #3b5998;color: white;border: darkblue;padding: 8px 20px;text-align: center;text-decoration: none;display: inline-block;cursor: pointer">
+        <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar" style=" display:inline-block; margin-left: 670px;color: white;margin-top: 2px;font-size: 13px">Forgotten account?</a>
+
+    </div>
+    <div class="relative">
+        <h3 style="color: darkblue;font-size: 22px ;margin-left: 200px;margin-top: 50px;width: 460px">Facebook helps you connect and share with the people in your life.</h3>
+        <img src="imgfb.png" alt="loading failed" style="margin-top: 10px;margin-left: 200px">
+
+
+</div>
+    <div class="relative1">
+
+        <h1 style="margin-bottom: -15px">Create an account</h1>
+        <p>it's free and always will be.</p>
+        <input class="textb" type="text" name="fname" placeholder="First Name">
+        <input class="textb" type="text" name="Sname" placeholder="Surname">
+
+        <input class="textb" type="text" name="Mob" STYLE="width: 300px"placeholder="Mobile number or email address" ><br>
+        <input  class="textb" type="password" name="Passwrd" STYLE="width: 300px" placeholder="New password">
+        <br>
+        <label style="margin-top: 3px; display: inline-block;margin-bottom: 3px">Birthday</label>
+        <br>
+        <select style="float: left; height: 24px" name="Date">
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+        </select>
+        <select style="float: left; height: 24px" name="Month">
+            <option value="Jan">Jan</option>
+            <option value="feb">Feb</option>
+            <option value="Mar">Mar</option>
+            <option value="Apr">Apr</option>
+        </select>
+        <select style="float: left; height: 24px"  name="Year">
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+        </select>
+        <a href="google.com" style=" display:block; width: 120px; float: left;margin-left: 6px">why do i need to provide my date of birth?</a>
+        <br>
+        <br>
+        <input type="radio" name="gend" value="Male">
+        <label> Male</label>
+        <input type="radio" name="gend" value="Female">
+        <label> Female</label>
+        <br>
+
+        <label style=" display:block; width: 300px;font-size: 11px;margin-top: 10px;color: grey">By clicking Sign Up, you agree to our Terms,Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</label>
+
+        <br>
+
+        <input type="submit" value="Sign Up" style="background-color: green;color: white;border: darkgreen;padding: 8px 50px;text-align: center;text-decoration: none;display: inline-block;margin: 4px 2px;cursor: pointer;border-radius: 8px">
+
+    </div>
+</body>
+</html>

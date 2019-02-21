@@ -1,0 +1,27 @@
+.TopDiv{
+    background-color: darkred;
+    height: 64px;
+}
+.Section1Div{
+    background-color: darkcyan;
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+.Section2Div{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+.Section3Div{
+    background-color: brown;
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+.NewDivStyle{
+    height: 300px;
+    background-color: chocolate;
+    width: 300px;
+}

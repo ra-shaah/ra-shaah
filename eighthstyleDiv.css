@@ -1,0 +1,45 @@
+.Section1{
+    background-color: coral;
+    height: 200px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: darkred;
+    margin: 50px;
+    padding: 50px;
+}
+.h1Class{
+    margin-left: 100px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-right: 100px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+a:link{
+    color: darkred;
+}
+a:hover{
+    text-decoration: none;
+    color: green;
+}
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    color: darkorchid;
+}
+.ListStyle1{
+    list-style-type: square;
+
+}
+.TableClass,th,td{
+
+    border: 1px solid darkred;
+
+}
+.TableClass{
+    width: 100%;
+}

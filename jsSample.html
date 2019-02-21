@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function changename() {
+            document.getElementById("heading").innerHTML="New heading";
+        }
+        function showalert() {
+            window.alert("this is an alert window!")
+        }
+        function getInput() {
+            var name=document.forms["myform"]["fname"].value;
+
+            window.alert(name);
+        }
+    </script>
+</head>
+<body>
+<h1 id="heading">Welcome</h1>
+<button onclick="changename()">click</button>
+<button onclick="showalert()">show alert</button>
+<br>
+<form name="myform">
+    <input type="text" name="fname">
+    <input type="submit" value="submit" onsubmit="getInput()">
+</form>
+</body>
+</html>
